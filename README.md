@@ -95,12 +95,6 @@ just click this icon ![Run icon](https://i.imgur.com/UPUZvN7.png)
 
 * **Anang Kurniawan** - *Initial work* - [AnangKur](https://github.com/anangkur)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* [Franks Rebecca](https://riggaroo.co.za/custom-file-template-group-android-studiointellij/)
