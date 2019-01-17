@@ -34,6 +34,7 @@ android {
 
 - Clone or download this repo
 - Copy folder TabActivityTemplate to 
+
 for windows user:
 ```
 {ANDROID_STUDIO_LOCATION}/plugins/android/lib/templates/activities/
