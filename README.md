@@ -1,15 +1,15 @@
 # Tab Activity Template
--
+
 Tab Activity template for android studio
 
-![Screenshoot app](https://drive.google.com/open?id=1i4WyIz9-3YOH6FjjcfgY1Oq9R0_ZA8I4)
+<img src="https://i.imgur.com/UaVdQwQ.png" width="200">
 
 ## Getting Started
--
+
 These instructions will get you a copy of the project up and running on your local machine.
 
 ### Prerequisites
--
+
 - Before you begin to the installation, you need to install * [Android Studio](https://developer.android.com/studio/).
 - in your android studio project you must add this in your `build.gradle(app)` depedencies
 ```
@@ -30,7 +30,7 @@ android {
 ```
 
 ### Installing
--
+
 - Clone or download this repo
 - Copy folder TabActivityTemplate to 
 for windows user:
@@ -43,9 +43,9 @@ for mac user:
 ```
 - open Android Studio (if you already opened android studio, restart it)
 - right click on a package that you want to create the template in and select it from the “New” menu, as below:
-![Create the template](https://drive.google.com/open?id=1avAVzy1jRqAmDzpU_FmX-_9FCfleU9g-)
+<img src="https://i.imgur.com/hXyxg9T.png" width="600">
 - You will then be prompted to fill in the variables see the example below:
-![Fill in the variable template](https://drive.google.com/open?id=1cpCaN9zgyj1rvpks6DlFR7I1hXqv0QEO)
+<img src="https://i.imgur.com/PlCX5wg.png" width="600">
 - You will see some error code, that's because you must `import` some code before you can continue.
 - if the error has gone, you must add this in your `androidManifest.xml`
 if this is your first activity, than use this code
@@ -77,11 +77,11 @@ but if there is another activity existed use this code
 - You can modify the code as you like.
 
 ## Running the app
--
-to run your app. you can use your android device or use the emulator.
-just click this icon ![Run icon](https://drive.google.com/open?id=1l7gTWW1O6YD8DDQI0mqAY_eRv2ksRGwl)
 
-![Screenshoot app](https://drive.google.com/open?id=1i4WyIz9-3YOH6FjjcfgY1Oq9R0_ZA8I4)
+to run your app. you can use your android device or use the emulator.
+just click this icon ![Run icon](https://i.imgur.com/UPUZvN7.png)
+
+<img src="https://i.imgur.com/UaVdQwQ.png" width="200">
 
 ## Authors
 
