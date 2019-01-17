@@ -3,14 +3,13 @@
         name="Tab Layout Activity"
         description="Creates a new Tab Layout classes">
 
-    <category value="Other"/>
+    <category value="Activity"/>
 
     <parameter
         id="mainActivityClass"
         name="Activity Name"
         type="string"
         constraints="class|unique|nonempty"
-        suggest="${layoutToActivity(layoutName)}"
         default="MainActivity"
         help="The name of the activity class to create" />
 
@@ -19,7 +18,6 @@
         name="Layout Name"
         type="string"
         constraints="layout|unique|nonempty"
-        suggest="${activityToLayout(activityClass)}"
         default="main_activity"
         help="The name of the layout to create for the activity" />
 

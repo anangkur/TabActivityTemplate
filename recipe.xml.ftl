@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <recipe>
+
     <instantiate from="src/app_package/Activity.kt.ftl"
                    to="${escapeXmlAttribute(srcOut)}/${mainActivityClass}.kt" />
 
