@@ -5,14 +5,16 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import kotlinx.android.synthetic.main.${fragmentLayoutName}.*
+import kotlinx.android.synthetic.main.${tabFragmentLayout}.*
 
-class ${fragmentClass}: Fragment(){
-
+class ${tabFragmentClass}: Fragment(){
+    
+    private lateinit var mViewBinding : ${tabFragmentClass}Binding
     private lateinit var tabName: String
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.${fragmentLayoutName}, container, false)
+        mViewBinding = ${tabFragmentClass}Binding.inflate(inflater, container, false)
+        return mViewBinding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

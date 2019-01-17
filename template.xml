@@ -6,7 +6,7 @@
     <category value="Other"/>
 
     <parameter
-        id="activityClass"
+        id="mainActivityClass"
         name="Activity Name"
         type="string"
         constraints="class|unique|nonempty"
@@ -15,28 +15,28 @@
         help="The name of the activity class to create" />
 
     <parameter
-        id="layoutName"
+        id="mainActivityLayout"
         name="Layout Name"
         type="string"
         constraints="layout|unique|nonempty"
         suggest="${activityToLayout(activityClass)}"
-        default="activity_main"
+        default="main_activity"
         help="The name of the layout to create for the activity" />
 
     <parameter
-        id="fragmentClass"
+        id="tabFragmentClass"
         name="Fragment Name"
         type="string"
         constraints="class|unique|nonempty"
-        default="TabFragment"
+        default="MainTabFragment"
         help="The name of the fragment class to create" />
 
     <parameter
-        id="fragmentLayoutName"
+        id="tabFragmentLayout"
         name="Fragment Layout Name"
         type="string"
         constraints="layout|unique|nonempty"
-        default="fragment_tab"
+        default="main_tab_fragment"
         help="The name of the layout to create for the activity" />
 
     <parameter
